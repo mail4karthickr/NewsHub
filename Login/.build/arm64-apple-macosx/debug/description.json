@@ -1,0 +1,2813 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.xctest/Contents/MacOS/LoginPackageTests",
+      "packagePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login",
+      "productName" : "LoginPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth_AppAuth.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth_AppAuth.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth_AppAuthCore.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth_AppAuthCore.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth_AppAuthTV.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthTV/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth_AppAuthTV.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth_GTMAppAuth.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth_GTMAppAuth.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcher_GTMSessionFetcherCore.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcher_GTMSessionFetcherCore.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcher_GTMSessionFetcherFull.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Full/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcher_GTMSessionFetcherFull.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcher_GTMSessionFetcherLogView.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/LogView/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcher_GTMSessionFetcherLogView.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/Info.plist"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/Roboto-Bold.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Resources/Roboto-Bold.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/Roboto-Bold.ttf"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ar.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ca.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/cs.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/da.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/de.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/el.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/en.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/en_gb.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/en_GB.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/en_gb.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/es.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/es_mx.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/es_MX.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/es_mx.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/fi.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/fr.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/fr_ca.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/fr_CA.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/fr_ca.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/google.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Resources/google.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/google.png"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/google@2x.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Resources/google@2x.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/google@2x.png"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/google@3x.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Resources/google@3x.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/google@3x.png"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/he.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/hi.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/hr.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/hu.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/id.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/it.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ja.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ko.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ms.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/nb.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/nl.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/pl.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/pt.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pt_br.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/pt_BR.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pt_br.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pt_pt.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/pt_PT.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/pt_pt.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ro.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/ru.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/sk.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/sv.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/th.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/tr.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/uk.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/vi.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/zh_cn.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/zh_CN.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/zh_cn.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/zh_tw.lproj/GoogleSignIn.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Strings/zh_TW.lproj/GoogleSignIn.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignIn.bundle/zh_tw.lproj/GoogleSignIn.strings"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignInSwift.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignInSwift.bundle/Info.plist"
+        }
+      ]
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignInSwift.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/Resources/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn_GoogleSignInSwift.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GTMAppAuth-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/sources",
+      "importPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/GTMOAuth2Compatibility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<GTMAppAuth-arm64-apple-macosx26.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionFetcher.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionFetcherLogging.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionFetcherService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionUploadFetcher.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthState.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthorizationRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthorizationResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthorizationService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDClientMetadataParameters.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDEndSessionRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDEndSessionResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDError.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDErrorUtilities.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDFieldMapping.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDGrantTypes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDIDToken.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDRegistrationRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDRegistrationResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDResponseTypes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDScopeUtilities.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDScopes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDServiceConfiguration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDServiceDiscovery.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDTokenRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDTokenResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDTokenUtilities.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDURLQueryComponent.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDURLSessionProvider.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GTMAppAuth",
+      "moduleOutputPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/GTMAppAuth.swiftmodule",
+      "objects" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSession.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSessionDelegate.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSessionStore.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/GTMOAuth2Compatibility.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainAttribute.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainHelper.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainStore.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+        "-module-cache-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/include/GTMAppAuth-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSessionDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSessionStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/GTMOAuth2Compatibility.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/GTMAppAuth.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSession.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionDelegate.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionStore.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/GTMOAuth2Compatibility.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainAttribute.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainHelper.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainStore.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoogleSignInSwift-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/sources",
+      "importPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonBundleExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStrings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStyling.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<GoogleSignInSwift-arm64-apple-macosx26.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDAuthStateMigration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDAuthentication.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDCallbackQueue.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDConfiguration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDEMMErrorHandler.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDEMMSupport.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDGoogleUser.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDMDMPasscodeCache.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDMDMPasscodeState.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDProfileData.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDScopes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignIn.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInButton.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInCallbackSchemes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInInternalOptions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInPreferences.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInResult.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInStrings.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDToken.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/NSBundle+GID3PAdditions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoogleSignInSwift",
+      "moduleOutputPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/GoogleSignInSwift.swiftmodule",
+      "objects" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButton.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonBundleExtensions.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonStrings.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonStyling.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonViewModel.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+        "-module-cache-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/include/GoogleSignInSwift-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonBundleExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonStrings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonStyling.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/GoogleSignInButtonViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/GoogleSignInSwift.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButton.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonBundleExtensions.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStrings.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStyling.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonViewModel.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Login-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/sources",
+      "importPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleAuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleLoginButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleOAuthLoginButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/Login.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDAuthStateMigration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDAuthentication.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDCallbackQueue.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDConfiguration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDEMMErrorHandler.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDEMMSupport.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDGoogleUser.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDMDMPasscodeCache.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDMDMPasscodeState.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDProfileData.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDScopes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignIn.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInButton.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInCallbackSchemes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInInternalOptions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInPreferences.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInResult.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInStrings.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDToken.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/NSBundle+GID3PAdditions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Login",
+      "moduleOutputPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/Login.swiftmodule",
+      "objects" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.swift.o",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/Login.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+        "-module-cache-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/include/Login-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "login"
+      ],
+      "outputFileMapPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/Login.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/Login.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleAuthManager.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleLoginButton.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleOAuthLoginButton.swift",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/Login.swift"
+      ],
+      "tempsPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LoginPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/sources",
+      "importPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/LoginTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LoginPackageTests",
+      "moduleOutputPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/LoginPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+        "-module-cache-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/include/LoginPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "login"
+      ],
+      "outputFileMapPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/LoginPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LoginTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/sources",
+      "importPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Tests/LoginTests/LoginTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/Login.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LoginTests",
+      "moduleOutputPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/LoginTests.swiftmodule",
+      "objects" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/LoginTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+        "-Xcc",
+        "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+        "-module-cache-path",
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "login"
+      ],
+      "outputFileMapPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/LoginTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules/LoginTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/karthickramasamy/Desktop/NewsHub/Login/Tests/LoginTests/LoginTests.swift"
+      ],
+      "tempsPath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GTMAppAuth" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GTMAppAuth",
+      "-c",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSession.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionDelegate.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionStore.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/GTMOAuth2Compatibility.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainAttribute.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainHelper.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainStore.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+      "-module-cache-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/include/GTMAppAuth-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GoogleSignInSwift" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoogleSignInSwift",
+      "-c",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButton.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonBundleExtensions.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStrings.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStyling.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonViewModel.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+      "-module-cache-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/include/GoogleSignInSwift-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Login" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Login",
+      "-package-name",
+      "login",
+      "-c",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleAuthManager.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleLoginButton.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleOAuthLoginButton.swift",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/Login.swift",
+      "-I",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+      "-module-cache-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/include/Login-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "login",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LoginPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LoginPackageTests",
+      "-package-name",
+      "login",
+      "-c",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+      "-module-cache-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/include/LoginPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "login",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LoginTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LoginTests",
+      "-package-name",
+      "login",
+      "-c",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/Tests/LoginTests/LoginTests.swift",
+      "-I",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Core/Public",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuthCore",
+      "-Xcc",
+      "-fmodule-map-file=/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth",
+      "-module-cache-path",
+      "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "login",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AppAuth" : [
+      "AppAuthCore"
+    ],
+    "AppAuthCore" : [
+
+    ],
+    "AppAuthTV" : [
+      "AppAuthCore"
+    ],
+    "GTMAppAuth" : [
+      "AppAuthCore",
+      "GTMSessionFetcherCore"
+    ],
+    "GTMSessionFetcherCore" : [
+
+    ],
+    "GTMSessionFetcherFull" : [
+      "GTMSessionFetcherCore"
+    ],
+    "GTMSessionFetcherLogView" : [
+      "GTMSessionFetcherCore"
+    ],
+    "GoogleSignIn" : [
+      "GTMAppAuth",
+      "GTMSessionFetcherCore",
+      "AppAuth",
+      "AppAuthCore"
+    ],
+    "GoogleSignInSwift" : [
+      "GoogleSignIn",
+      "GTMAppAuth",
+      "GTMSessionFetcherCore",
+      "AppAuth",
+      "AppAuthCore"
+    ],
+    "Login" : [
+      "GoogleSignIn",
+      "GTMAppAuth",
+      "GTMSessionFetcherCore",
+      "AppAuth",
+      "AppAuthCore"
+    ],
+    "LoginPackageTests" : [
+      "LoginTests",
+      "Login",
+      "GoogleSignIn",
+      "GTMAppAuth",
+      "GTMSessionFetcherCore",
+      "AppAuth",
+      "AppAuthCore"
+    ],
+    "LoginTests" : [
+      "Login",
+      "GoogleSignIn",
+      "GTMAppAuth",
+      "GTMSessionFetcherCore",
+      "AppAuth",
+      "AppAuthCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/AuthSessionStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/GTMOAuth2Compatibility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/sources"
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonBundleExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStrings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonStyling.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/GoogleSignIn-iOS/GoogleSignInSwift/Sources/GoogleSignInButtonViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignInSwift.build/sources"
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleAuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleLoginButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleOAuthLoginButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/Login.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/sources"
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/sources"
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/iOS/OIDAuthState+IOS.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/iOS/OIDAuthorizationService+IOS.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/iOS/OIDExternalUserAgentCatalyst.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/iOS/OIDExternalUserAgentIOS.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/iOS/OIDExternalUserAgentIOSCustomBrowser.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/macOS/OIDAuthState+Mac.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/macOS/OIDAuthorizationService+Mac.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/macOS/OIDExternalUserAgentMac.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/macOS/OIDRedirectHTTPHandler.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuth.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthState.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthorizationRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthorizationResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDAuthorizationService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDClientMetadataParameters.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDEndSessionRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDEndSessionResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDError.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDErrorUtilities.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDFieldMapping.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDGrantTypes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDIDToken.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDRegistrationRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDRegistrationResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDResponseTypes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDScopeUtilities.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDScopes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDServiceConfiguration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDServiceDiscovery.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDTokenRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDTokenResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDTokenUtilities.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDURLQueryComponent.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/OIDURLSessionProvider.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/AppAuthCore.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSessionDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/AuthSessionStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/GTMOAuth2Compatibility.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/KeychainStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMAppAuth.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionFetcher.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionFetcherLogging.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionFetcherService.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/GTMSessionUploadFetcher.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GTMSessionFetcherCore.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDAuthStateMigration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDAuthentication.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDCallbackQueue.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDConfiguration.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDEMMErrorHandler.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDEMMSupport.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDGoogleUser.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDMDMPasscodeCache.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDMDMPasscodeState.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDProfileData.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDScopes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignIn.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInButton.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInCallbackSchemes.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInInternalOptions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInPreferences.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInResult.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDSignInStrings.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/GIDToken.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/NSBundle+GID3PAdditions.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/GoogleSignIn.build/resource_bundle_accessor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/Login.build/Login.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/LoginTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/karthickramasamy/Desktop/NewsHub/Login/Tests/LoginTests/LoginTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/LoginTests.build/sources"
+    },
+    "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

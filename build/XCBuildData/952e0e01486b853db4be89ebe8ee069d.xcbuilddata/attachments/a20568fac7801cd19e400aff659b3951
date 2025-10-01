@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHub-primary.dia",
+    "emit-module-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHub-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHub-primary-emit-module.dia",
+    "pch" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHub-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHub-primary.swiftdeps"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/ContentView.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Models/NewsModels.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsModels~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/NewsHubApp.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsHubApp~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Services/BookmarkManager.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/BookmarkManager~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Services/NewsService.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsService~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/ViewModels/NewsFeedViewModel.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsFeedViewModel~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Views/ArticleModalView.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/ArticleModalView~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Views/CompactFilterView.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/CompactFilterView~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Views/EnhancedNewsCardView.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/EnhancedNewsCardView~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Views/NewsListItemView.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsListItemView~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Views/NewsSkeletonView.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/NewsSkeletonView~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/NewsHub/Views/RefreshControl.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/RefreshControl~partial.swiftmodule"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/karthickramasamy/Desktop/NewsHub/build/NewsHub.build/Debug-iphoneos/NewsHub.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

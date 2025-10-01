@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/master.swiftdeps"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleAuthManager.swift": {
+    "dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.d",
+    "object": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.swift.o",
+    "swiftmodule": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.swiftdeps",
+    "diagnostics": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleAuthManager.dia"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleLoginButton.swift": {
+    "dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.d",
+    "object": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.swift.o",
+    "swiftmodule": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.swiftdeps",
+    "diagnostics": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleLoginButton.dia"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/GoogleOAuthLoginButton.swift": {
+    "dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.d",
+    "object": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.swift.o",
+    "swiftmodule": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.swiftdeps",
+    "diagnostics": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/GoogleOAuthLoginButton.dia"
+  },
+  "/Users/karthickramasamy/Desktop/NewsHub/Login/Sources/Login/Login.swift": {
+    "dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/Login.d",
+    "object": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/Login.swift.o",
+    "swiftmodule": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/Login~partial.swiftmodule",
+    "swift-dependencies": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/Login.swiftdeps",
+    "diagnostics": "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/arm64-apple-macosx/debug/Login.build/Login.dia"
+  }
+}

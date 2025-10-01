@@ -1,0 +1,4 @@
+module AppAuth {
+umbrella "/Users/karthickramasamy/Library/Developer/Xcode/DerivedData/NewsHub-etnmmoklhesfracagevmcnfvaxmw/SourcePackages/checkouts/AppAuth-iOS/Sources/AppAuth"
+export *
+}

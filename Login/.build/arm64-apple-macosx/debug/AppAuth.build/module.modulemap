@@ -1,0 +1,4 @@
+module AppAuth {
+    umbrella "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/AppAuth-iOS/Sources/AppAuth"
+    export *
+}
