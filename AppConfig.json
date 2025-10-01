@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "NewsList"
+  ],
+  "app": {
+    "name": "NewsHub",
+    "version": "1.0.0",
+    "bundleIdentifier": "com.newshub.app"
+  },
+  "features": {
+    "enableAccessibilityIdentifiers": true,
+    "enableAnalytics": false,
+    "enablePushNotifications": false
+  },
+  "api": {
+    "baseURL": "https://newsapi.org/v2",
+    "timeout": 30
+  }
+}

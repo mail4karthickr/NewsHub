@@ -10,6 +10,8 @@ import Combine
 import Foundation
 
 struct EnhancedNewsCardView: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.EnhancedCard
+    
     let article: Article
     let onTap: () -> Void
     @StateObject private var bookmarkManager = BookmarkManager.shared
@@ -98,6 +100,7 @@ struct EnhancedNewsCardView: View {
                             }
                             .foregroundColor(.blue)
                         }
+                        .accessibilityIdentifier(AccessibilityIds.readMoreButton)
                         
                         Spacer()
                         
@@ -109,6 +112,8 @@ struct EnhancedNewsCardView: View {
                                 .font(.system(size: 18))
                                 .foregroundColor(bookmarkManager.isFavorite(article.id) ? .red : .gray)
                         }
+                        .accessibilityIdentifier(AccessibilityIds.favoriteButton)
+                        .accessibilityLabel(bookmarkManager.isFavorite(article.id) ? "Remove from favorites" : "Add to favorites")
                     }
                     .padding(.top, 8)
                 }
@@ -186,6 +191,8 @@ struct CachedAsyncImage<Content: View, Placeholder: View>: View {
 
 // Error state view
 struct NewsErrorView: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.NewsHomeView
+    
     let error: Error
     let onRetry: () -> Void
     
@@ -209,6 +216,7 @@ struct NewsErrorView: View {
                 onRetry()
             }
             .buttonStyle(.borderedProminent)
+            .accessibilityIdentifier(AccessibilityIds.errorRetryButton)
         }
         .padding(.top, 50)
     }

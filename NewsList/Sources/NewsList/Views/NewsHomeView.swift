@@ -16,6 +16,8 @@ public struct WebURLItem: Identifiable {
 
 @MainActor
 public struct NewsHomeView: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.NewsHomeView
+    
     @StateObject private var viewModel = NewsFeedViewModel()
     @State private var selectedArticleItem: WebURLItem?
 
@@ -44,7 +46,7 @@ public struct NewsHomeView: View {
 
                 case .loaded:
                     // Show articles using the horizontal layout as specified in the story
-                    ForEach(viewModel.articles) { article in
+                    ForEach(Array(viewModel.articles.enumerated()), id: \.element.id) { index, article in
                         NewsListItemView(
                             article: article,
                             onReadMore: {
@@ -56,6 +58,7 @@ public struct NewsHomeView: View {
                                 BookmarkManager.shared.toggleFavorite(articleId: article.id)
                             }
                         )
+                        .accessibilityIdentifier(AccessibilityIds.articleCard(at: index))
                         .onAppear {
                             // Load more when reaching the last item
                             if viewModel.shouldLoadMore(for: article) {
@@ -74,16 +77,19 @@ public struct NewsHomeView: View {
                                 .foregroundColor(.secondary)
                         }
                         .padding()
+                        .accessibilityIdentifier(AccessibilityIds.loadingMoreIndicator)
                     }
 
                 case .failed(let error):
                     NewsErrorView(error: error) {
                         viewModel.loadInitialData()
                     }
+                    .accessibilityIdentifier(AccessibilityIds.errorView)
                 }
 
                 if viewModel.articles.isEmpty && viewModel.loadingState == .loaded {
                     NewsEmptyView()
+                        .accessibilityIdentifier(AccessibilityIds.emptyStateView)
                 }
 
                 Spacer(minLength: 100)

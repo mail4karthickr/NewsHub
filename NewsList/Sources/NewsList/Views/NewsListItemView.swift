@@ -10,6 +10,7 @@ import NewsList
 import Foundation
 
 struct NewsListItemView: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.ArticleCard
     let article: Article
     let onReadMore: () -> Void
     let onFavorite: () -> Void
@@ -36,6 +37,7 @@ struct NewsListItemView: View {
                             .foregroundColor(.gray)
                     )
             }
+            .accessibilityIdentifier(AccessibilityIds.image)
             
             // Content section
             VStack(alignment: .leading, spacing: 8) {
@@ -46,6 +48,7 @@ struct NewsListItemView: View {
                     .foregroundColor(.primary)
                     .multilineTextAlignment(.leading)
                     .lineLimit(3)
+                    .accessibilityIdentifier(AccessibilityIds.title)
                 
                 // Description below the title - 5-6 lines as specified
                 if let description = article.description {
@@ -54,6 +57,7 @@ struct NewsListItemView: View {
                         .foregroundColor(.secondary)
                         .multilineTextAlignment(.leading)
                         .lineLimit(6)  // 5-6 lines as per story requirement
+                        .accessibilityIdentifier(AccessibilityIds.description)
                 }
                 
                 // Source and time info
@@ -61,12 +65,14 @@ struct NewsListItemView: View {
                     Text(article.source.name)
                         .font(.caption)
                         .foregroundColor(.blue)
+                        .accessibilityIdentifier(AccessibilityIds.source)
                     
                     Spacer()
                     
                     Text(article.timeAgoString)
                         .font(.caption)
                         .foregroundColor(.secondary)
+                        .accessibilityIdentifier(AccessibilityIds.time)
                 }
                 .padding(.top, 4)
                 
@@ -83,6 +89,7 @@ struct NewsListItemView: View {
                         }
                         .foregroundColor(.blue)
                     }
+                    .accessibilityIdentifier(AccessibilityIds.readMoreButton)
                     
                     Spacer()
                     
@@ -92,6 +99,8 @@ struct NewsListItemView: View {
                             .font(.system(size: 16))
                             .foregroundColor(bookmarkManager.isFavorite(article.id) ? .red : .gray)
                     }
+                    .accessibilityIdentifier(AccessibilityIds.favoriteButton)
+                    .accessibilityLabel(bookmarkManager.isFavorite(article.id) ? "Remove from favorites" : "Add to favorites")
                 }
                 .padding(.top, 8)
             }

@@ -9,6 +9,7 @@ import SwiftUI
 
 // Compact Filter View - Combines all filters in a better layout
 struct CompactFilterView: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.Filters
     @Binding var selectedCategory: NewsCategory
     @Binding var selectedDateFilter: DateFilter
     @Binding var selectedSource: NewsSource
@@ -57,6 +58,7 @@ struct CompactFilterView: View {
                     }
                     .font(.caption)
                     .foregroundColor(.blue)
+                    .accessibilityIdentifier(AccessibilityIds.clearAllButton)
                 }
                 
                 // More filters button
@@ -84,6 +86,7 @@ struct CompactFilterView: View {
                     )
                 }
                 .contentShape(Rectangle())
+                .accessibilityIdentifier(AccessibilityIds.moreFiltersButton)
             }
             .padding(.horizontal)
             
@@ -91,7 +94,7 @@ struct CompactFilterView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 8) {
                     // Category chips - showing all main categories as specified in the story
-                    ForEach([NewsCategory.business, .sports, .technology, .health, .science, .entertainment, .all], id: \.self) { category in
+                    ForEach(Array([NewsCategory.business, .sports, .technology, .health, .science, .entertainment, .all].enumerated()), id: \.element) { index, category in
                         FilterChipView(
                             title: category.displayName,
                             icon: category.icon,
@@ -103,6 +106,7 @@ struct CompactFilterView: View {
                                 onCategoryChange(category)
                             }
                         )
+                        .accessibilityIdentifier(AccessibilityIds.categoryChip(at: index))
                     }
                     
                     Divider()
@@ -110,7 +114,7 @@ struct CompactFilterView: View {
                         .padding(.horizontal, 4)
                     
                     // Date filter chips
-                    ForEach([DateFilter.all, .today, .lastWeek], id: \.id) { dateFilter in
+                    ForEach(Array([DateFilter.all, .today, .lastWeek].enumerated()), id: \.element.id) { index, dateFilter in
                         FilterChipView(
                             title: dateFilter.displayName,
                             icon: dateFilter.icon,
@@ -122,6 +126,7 @@ struct CompactFilterView: View {
                                 onDateFilterChange(dateFilter)
                             }
                         )
+                        .accessibilityIdentifier(AccessibilityIds.dateChip(at: index))
                     }
                     
                     Divider()
@@ -142,6 +147,7 @@ struct CompactFilterView: View {
                             RoundedRectangle(cornerRadius: 16)
                                 .fill(Color.gray.opacity(0.1))
                         )
+                        .accessibilityIdentifier(AccessibilityIds.sourceLoading)
                     } else {
                         FilterChipView(
                             title: selectedSource.name,
@@ -153,6 +159,7 @@ struct CompactFilterView: View {
                                 showFilterSheet = true
                             }
                         )
+                        .accessibilityIdentifier(AccessibilityIds.sourceChip)
                     }
                 }
                 .padding(.leading, 16)
@@ -229,6 +236,7 @@ struct FilterChipView: View {
 
 // Comprehensive filter sheet
 struct CompactFilterSheet: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.FilterSheet
     @Binding var selectedCategory: NewsCategory
     @Binding var selectedDateFilter: DateFilter
     @Binding var selectedSource: NewsSource
@@ -248,7 +256,7 @@ struct CompactFilterSheet: View {
                 // Categories Section
                 Section("Categories") {
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 8) {
-                        ForEach(NewsCategory.allCases, id: \.self) { category in
+                        ForEach(Array(NewsCategory.allCases.enumerated()), id: \.element) { index, category in
                             Button(action: {
                                 selectedCategory = category
                                 onCategoryChange(category)
@@ -275,13 +283,14 @@ struct CompactFilterSheet: View {
                                         .fill(selectedCategory == category ? Color.blue.opacity(0.1) : Color.clear)
                                 )
                             }
+                            .accessibilityIdentifier(AccessibilityIds.categoryOption(at: index))
                         }
                     }
                 }
                 
                 // Date Filter Section
                 Section("Date Range") {
-                    ForEach(DateFilter.allCases, id: \.id) { dateFilter in
+                    ForEach(Array(DateFilter.allCases.enumerated()), id: \.element.id) { index, dateFilter in
                         Button(action: {
                             selectedDateFilter = dateFilter
                             onDateFilterChange(dateFilter)
@@ -302,6 +311,7 @@ struct CompactFilterSheet: View {
                                 }
                             }
                         }
+                        .accessibilityIdentifier(AccessibilityIds.dateOption(at: index))
                     }
                     
                     // Custom date range option
@@ -309,11 +319,12 @@ struct CompactFilterSheet: View {
                         showCustomDatePicker = true
                     }
                     .foregroundColor(.green)
+                    .accessibilityIdentifier(AccessibilityIds.customDateRangeButton)
                 }
                 
                 // Sources Section
                 Section("News Sources") {
-                    ForEach(availableSources.prefix(20)) { source in
+                    ForEach(Array(availableSources.prefix(20).enumerated()), id: \.element.id) { index, source in
                         Button(action: {
                             selectedSource = source
                             onSourceFilterChange(source)
@@ -344,6 +355,7 @@ struct CompactFilterSheet: View {
                                 }
                             }
                         }
+                        .accessibilityIdentifier(AccessibilityIds.sourceOption(at: index))
                     }
                 }
             }
@@ -358,11 +370,13 @@ struct CompactFilterSheet: View {
                         onDateFilterChange(.all)
                         onSourceFilterChange(.all)
                     }
+                    .accessibilityIdentifier(AccessibilityIds.resetButton)
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") {
                         dismiss()
                     }
+                    .accessibilityIdentifier(AccessibilityIds.doneButton)
                 }
             }
         }
@@ -387,6 +401,7 @@ struct CompactFilterSheet: View {
 }
 
 struct CustomDateRangeSheet: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.CustomDateRange
     @Binding var fromDate: Date
     @Binding var toDate: Date
     let onApply: (Date, Date) -> Void
@@ -397,7 +412,9 @@ struct CustomDateRangeSheet: View {
             Form {
                 Section("Date Range") {
                     DatePicker("From", selection: $fromDate, displayedComponents: .date)
+                        .accessibilityIdentifier(AccessibilityIds.fromDatePicker)
                     DatePicker("To", selection: $toDate, displayedComponents: .date)
+                        .accessibilityIdentifier(AccessibilityIds.toDatePicker)
                 }
             }
             .navigationTitle("Custom Date Range")
@@ -406,6 +423,7 @@ struct CustomDateRangeSheet: View {
                     Button("Cancel") {
                         dismiss()
                     }
+                    .accessibilityIdentifier(AccessibilityIds.cancelButton)
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Apply") {
@@ -413,6 +431,7 @@ struct CustomDateRangeSheet: View {
                         dismiss()
                     }
                     .disabled(fromDate > toDate)
+                    .accessibilityIdentifier(AccessibilityIds.applyButton)
                 }
             }
         }

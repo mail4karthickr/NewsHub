@@ -10,6 +10,7 @@ import Foundation
 import WebKit
 
 struct ArticleModalView: View {
+    typealias AccessibilityIds = NewsListAccessibilityIds.ArticleModal
     let article: Article
     @Environment(\.dismiss) private var dismiss
     
@@ -36,6 +37,7 @@ struct ArticleModalView: View {
                                     .foregroundColor(.gray)
                             )
                     }
+                    .accessibilityIdentifier(AccessibilityIds.image)
                     
                     VStack(alignment: .leading, spacing: 16) {
                         // Article Title
@@ -43,6 +45,7 @@ struct ArticleModalView: View {
                             .font(.title2)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.leading)
+                            .accessibilityIdentifier(AccessibilityIds.title)
                         
                         // Source and Time
                         HStack {
@@ -50,12 +53,14 @@ struct ArticleModalView: View {
                                 .font(.subheadline)
                                 .foregroundColor(.blue)
                                 .fontWeight(.medium)
+                                .accessibilityIdentifier(AccessibilityIds.source)
                             
                             Spacer()
                             
                             Text(article.timeAgoString)
                                 .font(.caption)
                                 .foregroundColor(.secondary)
+                                .accessibilityIdentifier(AccessibilityIds.time)
                         }
                         
                         // Author if available
@@ -63,6 +68,7 @@ struct ArticleModalView: View {
                             Text("By \(author)")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
+                                .accessibilityIdentifier(AccessibilityIds.author)
                         }
                         
                         Divider()
@@ -72,6 +78,7 @@ struct ArticleModalView: View {
                             Text(description)
                                 .font(.body)
                                 .lineSpacing(4)
+                                .accessibilityIdentifier(AccessibilityIds.description)
                         }
                         
                         if let content = article.content, !content.isEmpty {
@@ -79,6 +86,7 @@ struct ArticleModalView: View {
                                 .font(.body)
                                 .lineSpacing(4)
                                 .foregroundColor(.secondary)
+                                .accessibilityIdentifier(AccessibilityIds.content)
                         }
                         
                         Spacer(minLength: 40)
@@ -98,6 +106,7 @@ struct ArticleModalView: View {
                                 .background(Color.blue)
                                 .cornerRadius(12)
                             }
+                            .accessibilityIdentifier(AccessibilityIds.readFullArticleButton)
                             
                             // Share Button
                             Button(action: shareArticle) {
@@ -112,6 +121,7 @@ struct ArticleModalView: View {
                                 .background(Color.blue.opacity(0.1))
                                 .cornerRadius(12)
                             }
+                            .accessibilityIdentifier(AccessibilityIds.shareButton)
                         }
                     }
                     .padding(.horizontal)
@@ -129,6 +139,7 @@ struct ArticleModalView: View {
                             .font(.system(size: 16, weight: .medium))
                     }
                     .accessibilityLabel("Close article")
+                    .accessibilityIdentifier(AccessibilityIds.closeButton)
                 }
             }
         }
