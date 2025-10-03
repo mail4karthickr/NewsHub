@@ -1,4 +1,0 @@
-module Login {
-header "Login-Swift.h"
-export *
-}

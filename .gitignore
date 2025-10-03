@@ -138,3 +138,37 @@ GoogleService-Info.plist
 *.swp
 *.swo
 *.bak
+
+# Documentation files (excluding README.md)
+ARCHITECTURE_DIAGRAM.md
+BUILD_FIX.md
+BUILD_ISSUES_RESOLVED.md
+BUILD_SUCCESS.md
+CHECKLIST.md
+CRASH_FIX.md
+DEEPLINK_GUIDE.md
+FINAL_STATUS.md
+HOW_TO_FIX.md
+IMPLEMENTATION_SUMMARY.md
+ISSUES_RESOLVED.md
+LAUNCH_COMMANDS.md
+LAUNCH_DEEPLINK_GUIDE.md
+MIGRATION_GUIDE.md
+NAVIGATION_GUIDE.md
+NAVIGATION_QUICK_REF.md
+NAVIGATION_SIMPLIFIED.md
+QUICK_REFERENCE.md
+QUICK_START.md
+SIMPLIFIED_NAVIGATION.md
+TAB_NAVIGATION_GUIDE.md
+UPDATE_COMPLETE.md
+UPDATE_SUMMARY.md
+VISUAL_FLOW.md
+
+# Launch scripts (optional - remove this section if you want to track these)
+launch-newshub.sh
+launch-with-deeplink.sh
+test-deeplinks.sh
+
+# Build data
+build/
