@@ -1,4 +1,0 @@
-module GTMSessionFetcherLogView {
-    umbrella "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/checkouts/gtm-session-fetcher/Sources/LogView/Public"
-    export *
-}

@@ -1,4 +1,0 @@
-module AppAuthCore {
-    umbrella "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/checkouts/AppAuth-iOS/Sources/AppAuthCore"
-    export *
-}

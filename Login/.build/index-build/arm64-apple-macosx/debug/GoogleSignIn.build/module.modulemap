@@ -1,4 +1,0 @@
-module GoogleSignIn {
-    umbrella header "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/index-build/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public/GoogleSignIn/GoogleSignIn.h"
-    export *
-}

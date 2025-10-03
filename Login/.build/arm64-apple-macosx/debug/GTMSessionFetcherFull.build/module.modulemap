@@ -1,4 +1,0 @@
-module GTMSessionFetcherFull {
-    umbrella "/Users/karthickramasamy/Desktop/NewsHub/Login/.build/checkouts/gtm-session-fetcher/Sources/Full/Public"
-    export *
-}
