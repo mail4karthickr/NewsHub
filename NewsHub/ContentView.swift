@@ -135,6 +135,7 @@ struct NewsHomeView: View {
                                 BookmarkManager.shared.toggleFavorite(articleId: article.id)
                             }
                         )
+                        .accessibilityIdentifier("newsListHomeView")
                         .onAppear {
                             // Load more when reaching the last item
                             if viewModel.shouldLoadMore(for: article) {
@@ -169,7 +170,6 @@ struct NewsHomeView: View {
             }
             .padding(.horizontal)
         }
-        .accessibilityIdentifier("newsListHomeView")
         .coordinateSpace(name: "pullToRefresh")
         .navigationTitle("News")
         #if os(iOS)
