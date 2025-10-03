@@ -15,28 +15,28 @@ struct NewsResponse: Codable {
     let articles: [Article]
 }
 
-struct Article: Codable, Identifiable, Equatable {
-    let source: Source
-    let author: String?
-    let title: String
-    let description: String?
-    let url: String
-    let urlToImage: String?
-    let publishedAt: String
-    let content: String?
+public struct Article: Codable, Identifiable, Equatable {
+    public let source: Source
+    public let author: String?
+    public let title: String
+    public let description: String?
+    public let url: String
+    public let urlToImage: String?
+    public let publishedAt: String
+    public let content: String?
     
     // Generate ID based on URL for uniqueness
-    var id: String {
+    public var id: String {
         return url
     }
     
     // Computed properties for UI
-    var publishedDate: Date {
+    public var publishedDate: Date {
         let formatter = ISO8601DateFormatter()
         return formatter.date(from: publishedAt) ?? Date()
     }
     
-    var timeAgoString: String {
+    public var timeAgoString: String {
         let now = Date()
         let interval = now.timeIntervalSince(publishedDate)
         
@@ -52,29 +52,29 @@ struct Article: Codable, Identifiable, Equatable {
         }
     }
     
-    var hasImage: Bool {
+    public var hasImage: Bool {
         urlToImage != nil && !urlToImage!.isEmpty
     }
     
-    static func == (lhs: Article, rhs: Article) -> Bool {
+    public static func == (lhs: Article, rhs: Article) -> Bool {
         lhs.url == rhs.url
     }
 }
 
-struct Source: Codable {
-    let id: String?
-    let name: String
+public struct Source: Codable {
+    public let id: String?
+    public let name: String
 }
 
 // MARK: - Loading States
 
-enum LoadingState: Equatable {
+public enum LoadingState: Equatable {
     case idle
     case loading
     case loaded
     case failed(Error)
     
-    static func == (lhs: LoadingState, rhs: LoadingState) -> Bool {
+    public static func == (lhs: LoadingState, rhs: LoadingState) -> Bool {
         switch (lhs, rhs) {
         case (.idle, .idle), (.loading, .loading), (.loaded, .loaded):
             return true

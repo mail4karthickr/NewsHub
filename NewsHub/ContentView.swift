@@ -8,6 +8,7 @@
 import SwiftUI
 import Foundation
 import Combine
+import NewsList
 #if canImport(UIKit)
 import UIKit
 #endif
@@ -52,37 +53,38 @@ struct ContentView: View {
 
 // MARK: - Main Tab View
 struct NewsHubMainView: View {
-    @State private var selectedTab = 0
+    @EnvironmentObject private var coordinator: NavigationCoordinator
+    @State private var selectedTab = AppTab.home
     
     var body: some View {
-        TabView(selection: $selectedTab) {
+        TabView(selection: Binding(get: { coordinator.selectedTab }, set: { coordinator.selectedTab = $0 })) {
             NavigationStack { NewsHomeView() }
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-                .tag(0)
+                .tag(AppTab.home)
             
             NavigationStack { NewsSearchView() }
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("Search")
                 }
-                .tag(1)
+                .tag(AppTab.search)
             
             NavigationStack { BookmarksView() }
                 .tabItem {
                     Image(systemName: "bookmark.fill")
                     Text("Saved")
                 }
-                .tag(2)
+                .tag(AppTab.bookmarks)
             
             NavigationStack { ProfileView() }
                 .tabItem {
                     Image(systemName: "person.crop.circle")
                     Text("Profile")
                 }
-                .tag(3)
+                .tag(AppTab.profile)
         }
     }
 }

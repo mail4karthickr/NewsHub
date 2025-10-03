@@ -8,11 +8,16 @@
 import SwiftUI
 
 // MARK: - Pull-to-Refresh Component
-struct RefreshControl: View {
+public struct RefreshControl: View {
     let coordinateSpaceName: String
     let onRefresh: () -> Void
     
-    var body: some View {
+    public init(coordinateSpaceName: String, onRefresh: @escaping () -> Void) {
+        self.coordinateSpaceName = coordinateSpaceName
+        self.onRefresh = onRefresh
+    }
+    
+    public var body: some View {
         GeometryReader { geometry in
             if geometry.frame(in: .named(coordinateSpaceName)).midY > 50 {
                 HStack {

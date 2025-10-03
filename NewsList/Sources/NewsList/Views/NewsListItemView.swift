@@ -6,16 +6,22 @@
 //
 
 import SwiftUI
-import NewsList
 import Foundation
 
-struct NewsListItemView: View {
+public struct NewsListItemView: View {
     let article: Article
     let onReadMore: () -> Void
     let onFavorite: () -> Void
     @StateObject private var bookmarkManager = BookmarkManager.shared
     
-    var body: some View {
+    public init(article: Article, onReadMore: @escaping () -> Void, onFavorite: @escaping () -> Void) {
+        self.article = article
+        self.onReadMore = onReadMore
+        self.onFavorite = onFavorite
+        _bookmarkManager = StateObject(wrappedValue: BookmarkManager.shared)
+    }
+    
+    public var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             // Image at the top of the news card
             AsyncImage(url: URL(string: article.urlToImage ?? "")) { image in
@@ -142,3 +148,4 @@ struct NewsListItemView_Previews: PreviewProvider {
     }
 }
 #endif
+

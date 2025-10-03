@@ -9,12 +9,18 @@ import SwiftUI
 import Combine
 import Foundation
 
-struct EnhancedNewsCardView: View {
+public struct EnhancedNewsCardView: View {
     let article: Article
     let onTap: () -> Void
+    
+    public init(article: Article, onTap: @escaping () -> Void) {
+        self.article = article
+        self.onTap = onTap
+    }
+    
     @StateObject private var bookmarkManager = BookmarkManager.shared
     
-    var body: some View {
+    public var body: some View {
         Button(action: onTap) {
             // NHUB-3: Vertical card layout with image at TOP as specified in the updated story
             VStack(alignment: .leading, spacing: 12) {
@@ -126,10 +132,10 @@ struct EnhancedNewsCardView: View {
 }
 
 // Custom cached async image component
-struct CachedAsyncImage<Content: View, Placeholder: View>: View {
-    let url: String?
-    let content: (Image) -> Content
-    let placeholder: () -> Placeholder
+public struct CachedAsyncImage<Content: View, Placeholder: View>: View {
+    public let url: String?
+    public let content: (Image) -> Content
+    public let placeholder: () -> Placeholder
     
     @State private var imageData: Data?
     @State private var isLoading = false
@@ -137,7 +143,7 @@ struct CachedAsyncImage<Content: View, Placeholder: View>: View {
     private let imageCache = ImageCacheService.shared
     @State private var cancellables = Set<AnyCancellable>()
     
-    init(
+    public init(
         url: String?,
         @ViewBuilder content: @escaping (Image) -> Content,
         @ViewBuilder placeholder: @escaping () -> Placeholder
@@ -147,7 +153,7 @@ struct CachedAsyncImage<Content: View, Placeholder: View>: View {
         self.placeholder = placeholder
     }
     
-    var body: some View {
+    public var body: some View {
         Group {
             if let imageData = imageData {
                 #if canImport(UIKit)
@@ -185,11 +191,16 @@ struct CachedAsyncImage<Content: View, Placeholder: View>: View {
 }
 
 // Error state view
-struct NewsErrorView: View {
+public struct NewsErrorView: View {
     let error: Error
     let onRetry: () -> Void
     
-    var body: some View {
+    public init(error: Error, onRetry: @escaping () -> Void) {
+        self.error = error
+        self.onRetry = onRetry
+    }
+    
+    public var body: some View {
         VStack(spacing: 16) {
             Image(systemName: "exclamationmark.triangle")
                 .font(.system(size: 50))
@@ -215,8 +226,10 @@ struct NewsErrorView: View {
 }
 
 // Empty state view
-struct NewsEmptyView: View {
-    var body: some View {
+public struct NewsEmptyView: View {
+    public init() {}
+    
+    public var body: some View {
         VStack(spacing: 16) {
             Image(systemName: "newspaper")
                 .font(.system(size: 50))
@@ -257,3 +270,4 @@ struct NewsEmptyView: View {
         Spacer()
     }
 }
+

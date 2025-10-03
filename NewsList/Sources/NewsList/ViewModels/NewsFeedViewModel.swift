@@ -9,26 +9,25 @@ import Foundation
 import Combine
 import SwiftUI
 
-@MainActor
-class NewsFeedViewModel: ObservableObject {
-    @Published var articles: [Article] = []
-    @Published var loadingState: LoadingState = .idle
-    @Published var isRefreshing = false
-    @Published var isLoadingMore = false
-    @Published var hasMorePages = true
+@MainActor public class NewsFeedViewModel: ObservableObject {
+    @Published public private(set) var articles: [Article] = []
+    @Published public private(set) var loadingState: LoadingState = .idle
+    @Published public private(set) var isRefreshing = false
+    @Published public private(set) var isLoadingMore = false
+    @Published public private(set) var hasMorePages = true
     
     private let newsService = NewsService.shared
     private var cancellables = Set<AnyCancellable>()
     private var currentPage = 1
     private let pageSize = 20
     
-    init() {
+    public init() {
         loadInitialData()
     }
     
     // MARK: - Public Methods
     
-    func loadInitialData() {
+    public func loadInitialData() {
         guard loadingState != .loading else { return }
         
         loadingState = .loading
@@ -37,7 +36,7 @@ class NewsFeedViewModel: ObservableObject {
         fetchArticles(page: currentPage, isRefresh: false)
     }
     
-    func refresh() {
+    public func refresh() {
         guard !isRefreshing else { return }
         
         isRefreshing = true
@@ -47,7 +46,7 @@ class NewsFeedViewModel: ObservableObject {
         fetchArticles(page: currentPage, isRefresh: true)
     }
     
-    func loadMore() {
+    public func loadMore() {
         guard !isLoadingMore && hasMorePages && loadingState != .loading else { return }
         
         isLoadingMore = true
@@ -122,7 +121,7 @@ class NewsFeedViewModel: ObservableObject {
     
     // MARK: - Utility Methods
     
-    func shouldLoadMore(for article: Article) -> Bool {
+    public func shouldLoadMore(for article: Article) -> Bool {
         guard let lastArticle = articles.last else { return false }
         return article.id == lastArticle.id
     }

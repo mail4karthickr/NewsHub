@@ -8,30 +8,30 @@
 import Foundation
 import Combine
 
-class BookmarkManager: ObservableObject {
-    static let shared = BookmarkManager()
+public class BookmarkManager: ObservableObject {
+    public static let shared = BookmarkManager()
     
-    @Published private(set) var favoriteArticles: Set<String> = []
-    @Published private(set) var readLaterArticles: Set<String> = []
+    @Published public private(set) var favoriteArticles: Set<String> = []
+    @Published public private(set) var readLaterArticles: Set<String> = []
     
     private let favoritesKey = "FavoriteArticles"
     private let readLaterKey = "ReadLaterArticles"
     
-    private init() {
+    public init() {
         loadBookmarks()
     }
     
     // MARK: - Public Methods
     
-    func isFavorite(_ articleId: String) -> Bool {
+    public func isFavorite(_ articleId: String) -> Bool {
         favoriteArticles.contains(articleId)
     }
     
-    func isReadLater(_ articleId: String) -> Bool {
+    public func isReadLater(_ articleId: String) -> Bool {
         readLaterArticles.contains(articleId)
     }
     
-    func toggleFavorite(articleId: String) {
+    public func toggleFavorite(articleId: String) {
         if favoriteArticles.contains(articleId) {
             favoriteArticles.remove(articleId)
         } else {
@@ -40,7 +40,7 @@ class BookmarkManager: ObservableObject {
         saveFavorites()
     }
     
-    func toggleReadLater(articleId: String) {
+    public func toggleReadLater(articleId: String) {
         if readLaterArticles.contains(articleId) {
             readLaterArticles.remove(articleId)
         } else {
@@ -49,22 +49,22 @@ class BookmarkManager: ObservableObject {
         saveReadLater()
     }
     
-    func addToFavorites(articleId: String) {
+    public func addToFavorites(articleId: String) {
         favoriteArticles.insert(articleId)
         saveFavorites()
     }
     
-    func removeFromFavorites(articleId: String) {
+    public func removeFromFavorites(articleId: String) {
         favoriteArticles.remove(articleId)
         saveFavorites()
     }
     
-    func addToReadLater(articleId: String) {
+    public func addToReadLater(articleId: String) {
         readLaterArticles.insert(articleId)
         saveReadLater()
     }
     
-    func removeFromReadLater(articleId: String) {
+    public func removeFromReadLater(articleId: String) {
         readLaterArticles.remove(articleId)
         saveReadLater()
     }

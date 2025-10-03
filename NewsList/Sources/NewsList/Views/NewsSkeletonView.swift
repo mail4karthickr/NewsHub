@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct NewsSkeletonView: View {
+public struct NewsSkeletonView: View {
     @State private var isAnimating = false
-    
-    var body: some View {
+
+    public init() {}
+
+    public var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             // Image skeleton
             RoundedRectangle(cornerRadius: 8)
@@ -82,10 +84,10 @@ struct NewsSkeletonView: View {
 }
 
 // Shimmer effect modifier
-struct ShimmerModifier: ViewModifier {
+public struct ShimmerModifier: ViewModifier {
     let isAnimating: Bool
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         content
             .overlay(
                 Rectangle()
@@ -107,15 +109,17 @@ struct ShimmerModifier: ViewModifier {
     }
 }
 
-extension View {
+public extension View {
     func shimmer(isAnimating: Bool) -> some View {
         modifier(ShimmerModifier(isAnimating: isAnimating))
     }
 }
 
 // Multiple skeleton cells for initial loading
-struct NewsSkeletonListView: View {
-    var body: some View {
+public struct NewsSkeletonListView: View {
+    public init() {}
+
+    public var body: some View {
         LazyVStack(spacing: 16) {
             ForEach(0..<5, id: \.self) { _ in
                 NewsSkeletonView()
