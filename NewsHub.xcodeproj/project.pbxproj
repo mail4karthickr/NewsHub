@@ -152,7 +152,6 @@
 			);
 			name = NewsHub;
 			packageProductDependencies = (
-				B4D9AABF2E8B85CA0012F482 /* Login */,
 				B49044002E8F93BB00A70251 /* NewsList */,
 			);
 			productName = NewsHub;
@@ -619,10 +618,6 @@
 		B49044002E8F93BB00A70251 /* NewsList */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NewsList;
-		};
-		B4D9AABF2E8B85CA0012F482 /* Login */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Login;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
