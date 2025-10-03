@@ -39,16 +39,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				ScreenIndex.json,
 			);
 			target = B4D9AA762E8B80300012F482 /* NewsHub */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		B4D392692E8F9C2D00D1A7C3 /* Exceptions for "NewsHub" folder in "Compile Sources" phase from "NewsHub" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B4D9AA732E8B80300012F482 /* Sources */;
+			membershipExceptions = (
+				ScreenIndex.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B4D9AA792E8B80300012F482 /* NewsHub */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				B4D9AB682E8CD0380012F482 /* Exceptions for "NewsHub" folder in "NewsHub" target */,
+				B4D392692E8F9C2D00D1A7C3 /* Exceptions for "NewsHub" folder in "Compile Sources" phase from "NewsHub" target */,
 			);
 			path = NewsHub;
 			sourceTree = "<group>";
@@ -136,12 +148,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B4D9AA792E8B80300012F482 /* NewsHub */,		);
-		name = NewsHub;
-		packageProductDependencies = (
-			B49044002E8F93BB00A70251 /* NewsList */,
-		);
-		productName = NewsHub;
+				B4D9AA792E8B80300012F482 /* NewsHub */,
+			);
+			name = NewsHub;
+			packageProductDependencies = (
+				B4D9AABF2E8B85CA0012F482 /* Login */,
+				B49044002E8F93BB00A70251 /* NewsList */,
+			);
+			productName = NewsHub;
 			productReference = B4D9AA772E8B80300012F482 /* NewsHub.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -605,6 +619,10 @@
 		B49044002E8F93BB00A70251 /* NewsList */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NewsList;
+		};
+		B4D9AABF2E8B85CA0012F482 /* Login */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Login;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

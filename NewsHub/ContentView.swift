@@ -169,6 +169,7 @@ struct NewsHomeView: View {
             }
             .padding(.horizontal)
         }
+        .accessibilityIdentifier("newsListHomeView")
         .coordinateSpace(name: "pullToRefresh")
         .navigationTitle("News")
         #if os(iOS)
@@ -250,6 +251,7 @@ struct NewsSearchView: View {
             
             Spacer()
         }
+        .accessibilityIdentifier("searchHomeView")
         .navigationTitle("Search")
         .navigationBarTitleDisplayMode(.large)
     }
@@ -298,6 +300,7 @@ struct BookmarksView: View {
             }
             .padding(.horizontal)
         }
+        .accessibilityIdentifier("savedHomeView")
         .navigationTitle("Saved")
         .navigationBarTitleDisplayMode(.large)
         .toolbar {
@@ -385,6 +388,7 @@ struct ProfileView: View {
                 .padding(.bottom, 32)
             }
         }
+        .accessibilityIdentifier("profileHomeView")
         .navigationTitle("Settings")
         #if os(iOS)
         .navigationBarTitleDisplayMode(.large)

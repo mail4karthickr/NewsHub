@@ -1,7 +1,24 @@
-//
-//  Untitled.swift
-//  NewsHub
-//
-//  Created by Karthick Ramasamy on 03/10/25.
-//
-
+{
+  "entries": [
+    {
+      "route_key": "home",
+      "deep_link": "newshub://home",
+      "verify_element_id": "newsListHomeView"
+    },
+    {
+      "route_key": "search",
+      "deep_link": "newshub://search",
+      "verify_element_id": "searchHomeView"
+    },
+    {
+      "route_key": "saved",
+      "deep_link": "newshub://saved",
+      "verify_element_id": "savedHomeView"
+    },
+    {
+      "route_key": "profile",
+      "deep_link": "newshub://profile",
+      "verify_element_id": "profileHomeView"
+    }
+  ]
+}
